@@ -130,6 +130,12 @@ p {
     min-height: 650px;
     position: relative; */
 
+/*==== Service Area =====*/
+
+#service .fa {
+  font-size: 50px;
+}
+
 /*==== Contact Area =====*/
 contact .info {
   width: 100%;
