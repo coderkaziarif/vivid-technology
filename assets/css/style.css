@@ -45,9 +45,25 @@ body {
 #header .navbar-toggler:focus {
   box-shadow: none;
 }
-@media (max-width: 768px) {
+@media (max-width: 767px) {
   .nav-item {
     padding-left: 0 !important;
+  }
+  .about,
+  h1 {
+    margin-top: 0px;
+    padding-top: 0;
+  }
+  .about_text {
+    font-size: 0.9rem;
+  }
+  h1 {
+    font-size: 20px;
+  }
+}
+@media (max-width: 480px) {
+  .about_text {
+    font-size: 0.7rem;
   }
 }
 
@@ -95,7 +111,7 @@ p {
   background-size: cover;
   background-attachment: fixed;
   background-repeat: no-repeat;
-  min-height: 600px;
+  min-height: 700px;
   position: relative;
 }
 #about .dark_overlay {
