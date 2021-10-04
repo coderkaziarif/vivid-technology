@@ -14,8 +14,6 @@ body {
 :root {
   /* Background Color */
   --bg-danger: rgba(0, 0, 0, 0.719);
-  --bg-white: #fff;
-  --bg-light-white: #f5f5f5;
 }
 
 /* ====Navigation CSS====*/
