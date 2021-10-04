@@ -23,7 +23,7 @@ body {
   background-color: var(--bg-danger);
 }
 .navbar .nav-item {
-  padding-left: 0.5rem;
+  padding-left: 0.3rem;
 }
 
 .navbar .nav-item .nav-link {
@@ -55,9 +55,12 @@ body {
   .nav-item {
     padding-left: 0 !important;
   }
-  .about,
-  h1 {
+  #about {
     margin-top: 0px;
+    padding-top: 0px;
+  }
+  .about h1 {
+    margin-top: 0;
     padding-top: 0;
   }
   .about_text {
@@ -73,10 +76,16 @@ body {
 }
 @media (max-width: 575px) {
   .about_text {
-    font-size: 0.8rem;
+    font-size: 0.7rem;
+  }
+  .about_text h1 {
+    font-size: 1rem;
+    padding-top: 0px;
   }
   #about {
-    min-height: 900px;
+    margin-top: 0;
+    padding-left: 0;
+    padding: 0px;
   }
 }
 
