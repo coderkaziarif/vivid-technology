@@ -1,19 +1,21 @@
 * {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 
 body {
-  font-family: "Open Sans", sans-serif;
+  font-family: "Merriweather", serif;
   color: #444444ed;
 }
 #about {
-  margin-top: 20px;
+  margin-top: 2rem;
 }
 
 :root {
   /* Background Color */
-  --bg-danger: rgba(0, 0, 0, 0.719);
+  --bg-danger: rgba(0, 0, 0, 0.651);
+  --bg-warning: #ff8939;
 }
 
 /* ====Navigation CSS====*/
@@ -21,20 +23,44 @@ body {
   background-color: var(--bg-danger);
 }
 .navbar .nav-item {
-  padding-left: 0.3rem;
+  padding-left: 0.4rem;
+}
+
+.navbar .nav-item i {
+  font-size: 0.8rem;
+  transition: all ease-in-out 0.7s;
 }
 
 .navbar .nav-item .nav-link {
   text-transform: uppercase;
   font-family: "Koh Santepheap", cursive;
 }
+.navbar .nav-item a {
+  transition: all ease-in-out 0.7s;
+  color: #ff6700;
+  font-weight: 600;
+  position: relative;
+}
+.navbar .nav-item a::after {
+  content: "";
+  position: absolute;
+  display: block;
+  height: 0.3rem;
+  width: 0;
+  bottom: -0.5rem;
+  background-color: #000;
+  transition: all ease-in-out 0.7s;
+}
+.navbar .nav-item a:hover::after {
+  width: 85%;
+}
 
 #header .fixed-top {
-  box-shadow: 0 0.225rem 0.0675rem rgb(0 0 0 / 6%);
+  box-shadow: 0 0.325rem 0.0975rem rgb(0 0 0 / 8%);
 }
 #header .navbar-nav .nav-item .nav-link:hover,
 #header .navbar-nav .nav-item .nav-link.active {
-  color: #fff;
+  color: #000;
 }
 /* #header .navbar-toggler-icon {
   width: unset;
@@ -61,7 +87,7 @@ body {
     font-size: 0.9rem;
   }
   h1 {
-    font-size: 20px;
+    font-size: 2rem;
   }
 }
 
@@ -81,6 +107,7 @@ body {
 }
 
 /* media query end */
+
 /* ====Carousel CSS====*/
 .carousel-item {
   height: 450px;
@@ -123,6 +150,7 @@ p {
   background-repeat: no-repeat;
   min-height: 950px;
   position: relative;
+  border-bottom: 5px solid gold;
 }
 #about .dark_overlay {
   background: rgba(0, 0, 0, 0.719);
@@ -142,13 +170,52 @@ p {
 
 /*==== Service Area =====*/
 
+#service {
+  background-color: var(--bg-warning);
+  margin-top: 0px;
+  padding: 0px;
+  height: 800px;
+}
+
 #service h2 {
   text-align: center;
   border: 8px solid;
   padding: 5px;
-  border-image: linear-gradient(60deg, #ff7100, #484848) 10;
+  color: #fff;
+  border-image: linear-gradient(45deg, #ff7100, #484848) 10;
 }
 
+#service .service_card {
+  box-shadow: rgba (#ff7100) 15px 35px;
+  padding: 5px;
+}
+#service .service_card .card_top {
+  background-color: #ff8939;
+}
+
+#service .service_card .card_top:hover {
+  background-color: #c65000;
+  transition: 0.2s ease-in-out;
+  color: #fff;
+}
+/* #service .service_card .body_area .card-title:hover {
+  background-color: #c65000;
+  transition: 0.2s ease-in-out;
+  color: #fff;
+} */
+
+#service .service_card .body_area {
+  background-color: #ffa264;
+}
+#service .service_card .card_botom {
+  background-color: #ffa264;
+}
+#service .service_card .card_botom .filled {
+  color: #ff6700;
+}
+#service .service_card .card_botom .unfilled {
+  color: lightgrey;
+}
 /*==== Contact Area =====*/
 contact .info {
   width: 100%;
