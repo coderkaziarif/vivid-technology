@@ -485,7 +485,7 @@ p {
   font-size: 38px;
   display: inline-block;
   background: #89e5e5;
-  color: #fff;
+  color: #e6002d;
   line-height: 1;
   padding: 8px 0;
   margin-right: 4px;
@@ -499,6 +499,7 @@ p {
   background: #b50023;
   color: #fff;
   text-decoration: none;
+  transition: all ease-in-out 0.9s;
 }
 #footer .footer-top h4 {
   font-size: 18px;
@@ -559,6 +560,6 @@ p {
   color: #b50023;
 }
 #footer .credits a {
-  color: #b50023;
+  color: #e6002d;
   text-decoration: none;
 }
