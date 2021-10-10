@@ -456,12 +456,24 @@ p {
   position: relative;
   padding-bottom: 12px;
 }
+/* new added */
+#footer .footer-top h4::after {
+  content: "";
+  background: #e6002f;
+  width: 4rem;
+  height: 5px;
+  position: absolute;
+  bottom: 0px;
+  left: 20%;
+  transform: translateX(-50%);
+}
 
 #footer .footer-top {
   background: #58dbdb;
   border-top: 1px solid #34c0c0;
   border-bottom: 1px solid #34c0c0;
   padding: 60px 0 30px 0;
+  position: relative;
 }
 #footer .footer-top .footer-info {
   margin-bottom: 30px;
@@ -473,6 +485,17 @@ p {
   line-height: 1;
   color: #e6002f;
   font-weight: 600;
+  position: relative;
+}
+#footer .footer-top .footer-info h3::after {
+  content: "";
+  background: #e6002f;
+  width: 7rem;
+  height: 5px;
+  position: absolute;
+  bottom: -7px;
+  left: 40%;
+  transform: translateX(-50%);
 }
 #footer .footer-top .footer-info p {
   font-size: 14px;
