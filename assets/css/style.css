@@ -143,6 +143,28 @@ body {
   }
 }
 
+@media (max-width: 508px) {
+  #service .service_card h5 {
+    font-size: 0.8rem;
+  }
+  #service .service_card .body_area p {
+    font-size: 0.8rem;
+    text-align: left;
+  }
+
+  /* #service .service_card .card_top .fas {
+    font-size: 1.2rem;
+  } */
+
+  #service .service_card .card_botom {
+    justify-content: start;
+  }
+
+  #service .service_card .card_botom .fas {
+    font-size: 0.6rem;
+  }
+}
+
 /* media query end */
 
 /* ====Carousel CSS====*/
@@ -203,9 +225,19 @@ p {
 #service {
   background-color: #81ecec;
 
-  padding-bottom: 5rem;
+  padding: 5rem;
   /* height: 900px; */
   overflow: hidden;
+  display: flex;
+  flex-wrap: wrap;
+  height: auto;
+  margin: 0;
+}
+.wrapper {
+  width: 1170px;
+  margin: 10% auto;
+  box-shadow: 0 0 20px #bac3c3;
+  padding: 3rem;
 }
 
 #service h1 {
@@ -228,9 +260,9 @@ p {
 }
 
 .single_service {
-  /* box-shadow: 30px 20px 40px rgba (0, 0, 0, 0.7); */
+  /* box-shadow: 0 0 20px #bac3c3; */
   margin-top: 1.5rem;
-  border-radius: 10px;
+  border-radius: 5px;
   font-size: 1rem;
   cursor: pointer;
   /* background: transparent; */
@@ -288,15 +320,15 @@ p {
 .single_service span {
   position: absolute;
   top: 0;
-  left: -120%;
+  left: -140%;
   width: 100%;
   height: 100%;
   background: rgba(0, 0, 0, 0.7);
-  transition: all ease-in-out 0.7s;
+  transition: all ease-in-out 0.9s;
   transform: skewX(10deg);
 }
 .single_service:hover span {
-  left: 120%;
+  left: 140%;
 }
 /* #service .service_card .body_area {
   background-color: #ffa264;
