@@ -4,6 +4,8 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- ====JQuery====  -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <!-- ====Favicon==== -->
     <link rel="shortcut icon" href="assets/Logo/icon.ico" />
     <!-- Google Fonts -->
@@ -52,29 +54,29 @@
             <ul class="navbar-nav ms-auto">
               <li class="nav-item">
                 <a class="nav-link active" aria-current="page" href="#home">
-                  <i class="fas fa-home btn btn-outline-danger"></i> Home</a
+                  <i class="fas fa-home btn btn-outline-light"></i> Home</a
                 >
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="#about"
-                  ><i class="fab fa-atlassian btn btn-outline-danger"></i>
+                  ><i class="fab fa-atlassian btn btn-outline-light"></i>
                   About</a
                 >
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="#service"
-                  ><i class="fas fa-tools btn btn-outline-danger"></i> Services</a
+                  ><i class="fas fa-tools btn btn-outline-light"></i> Services</a
                 >
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="#contact"
-                  ><i class="ti-pencil-alt btn btn-outline-danger"></i> Contact
+                  ><i class="ti-pencil-alt btn btn-outline-light"></i> Contact
                   US</a
                 >
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="#clint list"
-                  ><i class="fas fa-address-card btn btn-outline-danger"></i>
+                  ><i class="fas fa-address-card btn btn-outline-light"></i>
                   Clint list</a
                 >
               </li>
@@ -239,7 +241,7 @@
           <div class="row mt-5">
             <div class="col">
               <h1 class="pt-2">ABOUT VIVID</h1>
-              <div class="line"></div>
+              <!-- <div class="line"></div> -->
               <p>
                 Vivid Technology works as Electrical and Electronic equipment
                 and IT Hardware sales and service provider company. We plan,
@@ -260,7 +262,7 @@
           <div class="row mt-3 pt-5 d-flex justify-content-between">
             <div class="col-md-5">
               <h1>History</h1>
-              <div class="line3"></div>
+              <!-- <div class="line3"></div> -->
               <p>
                 Vivid Technology works as Electrical and Electronic equipment
                 and IT Hardware sales and service provider company. Engineering
@@ -272,7 +274,7 @@
             </div>
             <div class="col-md-4">
               <h1>Vision</h1>
-              <div class="line3"></div>
+              <!-- <div class="line3"></div> -->
               <p>
                 Vivid Technology. will be global company with excellent brand
                 image having its operation all over the globe.
@@ -280,7 +282,7 @@
             </div>
             <div class="col-md-3">
               <h1>Mission</h1>
-              <div class="line3"></div>
+              <!-- <div class="line3"></div> -->
               <p>
                 Vivid Technology will be a top ten Engineering company in
                 Bangladesh within 2025.
@@ -547,17 +549,17 @@
               <ul>
                 <li>
                   <i class="fas fa-caret-right"></i>
-                  <a href="#">Home</a>
+                  <a href="#home">Home</a>
                 </li>
                 <li>
-                  <i class="fas fa-caret-right"></i> <a href="#">About us</a>
+                  <i class="fas fa-caret-right"></i> <a href="#about">About us</a>
                 </li>
                 <li>
-                  <i class="fas fa-caret-right"></i> <a href="#">Services</a>
+                  <i class="fas fa-caret-right"></i> <a href="#service">Services</a>
                 </li>
                 <li>
                   <i class="fas fa-caret-right"></i>
-                  <a href="#">Clint List</a>
+                  <a href="#contact">Contact</a>
                 </li>
               </ul>
             </div>
@@ -622,11 +624,9 @@
     </footer>
     <!-- End Footer -->
 
-    <a
-      href="#"
-      class="back-to-top d-flex align-items-center justify-content-center"
-      ><i class="ti-arrow-up"></i
-    ></a>
+    <!-- ====Back to Top area===== -->
+
+    <button id="topBtn"><i class="fas fa-angle-double-up"></i></button>
 
     <!--==== JavaScript Bundle with Popper ==== -->
     <script
@@ -635,5 +635,6 @@
       crossorigin="anonymous"
     ></script>
     <script src="assets/js/bootstrap.min.js"></script>
+    <script src="assets/js/script.js"></script>
   </body>
 </html>

@@ -64,7 +64,7 @@ body {
 }
 .navbar .nav-item a {
   transition: all ease-in-out 0.7s;
-  color: #e6002f;
+  color: #3fbfbf;
   font-weight: 600;
   position: relative;
 }
@@ -75,7 +75,7 @@ body {
   height: 0.3rem;
   width: 0;
   bottom: -0.5rem;
-  background-color: #e6002f;
+  background-color: #fff;
   transition: all ease-in-out 0.7s;
 }
 .navbar .nav-item a:hover::after {
@@ -231,7 +231,7 @@ p {
 #service {
   background-color: #81ecec;
 
-  padding: 5rem;
+  padding: 4rem;
   /* height: 900px; */
   overflow: hidden;
   display: flex;
@@ -242,7 +242,7 @@ p {
 .wrapper {
   width: 1170px;
   margin: 10% auto;
-  box-shadow: 0 0 20px #bac3c3;
+  box-shadow: 0 0 30px #fff;
   padding: 3rem;
 }
 
@@ -490,7 +490,7 @@ p {
 #footer .partner h4 {
   font-size: 18px;
   font-weight: 600;
-  color: #e6002f;
+  color: #3fbfbf;
   position: relative;
   padding-bottom: 12px;
 }
@@ -623,4 +623,26 @@ p {
 #footer .credits a {
   color: #e6002d;
   text-decoration: none;
+}
+/* ====Back to Top====  */
+#topBtn {
+  position: fixed;
+  bottom: 2.5rem;
+  right: 2.5rem;
+  width: 3.2rem;
+  height: 3.2rem;
+  border-radius: 50%;
+  border: 2px solid #fff;
+  cursor: pointer;
+  font-size: 2rem;
+  background: #83ecec;
+  color: #fff;
+  display: none;
+}
+#topBtn:hover {
+  background: #58dbdb;
+  color: #e6002f;
+  border: 2px solid #e6002f;
+  transition: 0.5s;
+  transform: scale(1.2);
 }
