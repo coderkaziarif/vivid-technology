@@ -145,10 +145,10 @@ body {
 
 @media (max-width: 508px) {
   #service {
-    padding: 2rem;
+    padding: 0rem;
   }
-  .wrapper {
-    padding: 0.5rem;
+  #service .wrapper {
+    padding: 0.7rem;
   }
   #service .service_card h5 {
     font-size: 0.8rem;
@@ -243,7 +243,7 @@ p {
   width: 1170px;
   margin: 10% auto;
   box-shadow: 0 0 20px #bac3c3;
-  padding: 1.5rem;
+  padding: 3rem;
 }
 
 #service h1 {
