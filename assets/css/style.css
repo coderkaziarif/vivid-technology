@@ -53,7 +53,7 @@ body {
   background-color: rgba(135, 140, 140, 0.801);
 }
 .navbar .nav-item {
-  padding-left: 0.4rem;
+  padding-left: 0.3rem;
 }
 
 .navbar .nav-item i {
@@ -162,6 +162,7 @@ body {
     display: inline-block;
     text-align: left;
   }
+
   table th {
     font-size: 1rem;
   }
@@ -205,12 +206,19 @@ body {
     justify-content: space-between;
   }
   table th {
-    font-size: 0.8rem;
+    font-size: 0.7rem;
   }
 
   table td {
-    font-size: 0.6rem;
+    font-size: 0.5rem;
   }
+
+  /* .clint-card i {
+    font-size: 0.5rem;
+  }
+  .clint-card h2 {
+    font-weight: 200;
+  } */
 }
 
 /* media query end */
@@ -675,13 +683,13 @@ p {
   color: #878c8c;
   text-decoration: none;
 }
-/* ====Back to Top====  */
+/* ====Back to Top Btn====  */
 #topBtn {
   position: fixed;
-  bottom: 2.5rem;
-  right: 2.5rem;
-  width: 3.2rem;
-  height: 3.2rem;
+  bottom: 2rem;
+  right: 1rem;
+  width: 3rem;
+  height: 3rem;
   border-radius: 50%;
   border: 2px solid #fff;
   cursor: pointer;
@@ -705,12 +713,12 @@ p {
   grid-gap: 2.5rem;
   box-shadow: 0 0 20px #fff;
   flex: 1 1;
-  padding: 1rem;
+  padding: 0.5rem;
 }
 
 .clint-card {
   text-align: center;
-  padding: 2rem;
+  padding: 0.5rem;
   border-radius: 5px;
   font-size: 1rem;
   cursor: pointer;
