@@ -8,6 +8,9 @@ body {
   font-family: "Merriweather", serif;
   color: #444444ed;
 }
+.container {
+  width: auto;
+}
 #about {
   margin-top: 2rem;
 }
@@ -159,6 +162,13 @@ body {
     display: inline-block;
     text-align: left;
   }
+  table th {
+    font-size: 1rem;
+  }
+
+  table td {
+    font-size: 0.8rem;
+  }
 }
 
 @media (max-width: 508px) {
@@ -188,6 +198,17 @@ body {
   }
 
   #service .service_card .card_botom .fas {
+    font-size: 0.6rem;
+  }
+  .clint-list {
+    display: flex;
+    justify-content: space-between;
+  }
+  table th {
+    font-size: 0.8rem;
+  }
+
+  table td {
     font-size: 0.6rem;
   }
 }
@@ -684,7 +705,7 @@ p {
   grid-gap: 2.5rem;
   box-shadow: 0 0 20px #fff;
   flex: 1 1;
-  padding: 0.5rem;
+  padding: 1rem;
 }
 
 .clint-card {
