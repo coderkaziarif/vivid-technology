@@ -251,13 +251,13 @@ p {
 
 /*==== About Area =====*/
 #about {
-  background-image: url(../images/bg-1.jpg);
+  background-image: url(../images/footer-bg.jpg);
   background-size: cover;
   background-attachment: fixed;
   background-repeat: no-repeat;
   min-height: 970px;
   position: relative;
-  border-bottom: 5px solid gold;
+  border-bottom: 2px solid #262626;
 }
 #about .dark_overlay {
   background: rgba(0, 0, 0, 0.719);
