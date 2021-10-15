@@ -252,7 +252,7 @@ p {
 #service {
   background-color: #313232;
 
-  padding: 4rem;
+  padding: 2rem;
   /* height: 900px; */
   overflow: hidden;
   display: flex;
@@ -261,10 +261,10 @@ p {
   margin: 0;
 }
 .wrapper {
-  width: 1170px;
+  width: 100%;
   margin: 10% auto;
   box-shadow: 0 0 30px #fff;
-  padding: 3rem;
+  padding: 2rem;
 }
 
 #service h1 {
