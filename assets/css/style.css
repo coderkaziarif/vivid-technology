@@ -163,13 +163,13 @@ body {
 
 @media (max-width: 508px) {
   #service {
-    padding: 2.5rem !important;
+    padding: 1.5rem !important;
   }
   #service h1 {
     font-size: 1.5rem;
   }
   #service .wrapper {
-    padding: 1.2rem;
+    padding: 1rem;
   }
   #service .service_card h5 {
     font-size: 0.8rem;
