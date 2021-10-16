@@ -53,11 +53,11 @@ body {
   background-color: rgba(135, 140, 140, 0.801);
 }
 .navbar .nav-item {
-  padding-left: 0.3rem;
+  padding-left: 0.2rem;
 }
 
 .navbar .nav-item i {
-  font-size: 0.8rem;
+  font-size: 0.9rem;
   transition: all ease-in-out 0.7s;
 }
 
