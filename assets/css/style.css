@@ -51,6 +51,7 @@ body {
 /* ====Navigation CSS====*/
 .navbar {
   background-color: rgba(135, 140, 140, 0.801);
+  
 }
 .navbar .nav-item {
   padding-left: 0.5rem;
@@ -92,10 +93,10 @@ body {
 #header .navbar-nav .nav-item .nav-link.active {
   color: #fff;
 }
-/* #header .navbar-toggler-icon {
+#header .navbar-toggler-icon {
   width: unset;
   height: unset;
-} */
+}
 #header .navbar-toggler:focus {
   box-shadow: none;
 }
@@ -163,13 +164,6 @@ body {
     text-align: left;
   }
 
-  table th {
-    font-size: 1rem;
-  }
-
-  table td {
-    font-size: 0.8rem;
-  }
 }
 
 @media (max-width: 508px) {
@@ -201,17 +195,8 @@ body {
   #service .service_card .card_botom .fas {
     font-size: 0.6rem;
   }
-  .clint-list {
-    display: flex;
-    justify-content: space-between;
-  }
-  table th {
-    font-size: 0.7rem;
-  }
-
-  table td {
-    font-size: 0.5rem;
-  }
+  
+  
 
   /* .clint-card i {
     font-size: 0.5rem;
@@ -553,7 +538,7 @@ p {
   height: 0.3rem;
   position: absolute;
   bottom: 5px;
-  left: 12%;
+  left: 13%;
   transform: translateX(-50%);
 }
 
@@ -584,7 +569,7 @@ p {
   height: 0.3rem;
   position: absolute;
   bottom: -5px;
-  left: 35%;
+  left: 22%;
   transform: translateX(-50%);
 }
 #footer .footer-top .footer-info p {
@@ -710,7 +695,7 @@ p {
 .partner_list {
   display: grid;
   grid-template-columns: (auto-fit, minmax(250px, 1fr));
-  grid-gap: 2.5rem;
+
   box-shadow: 0 0 20px #fff;
   flex: 1 1;
   padding: 0.5rem;
@@ -718,14 +703,18 @@ p {
 
 .clint-card {
   text-align: center;
-  padding: 0.5rem;
+  padding: 2rem;
   border-radius: 5px;
-  font-size: 1rem;
+  font-size: 1.5rem;
   cursor: pointer;
   background: transparent;
   transition: transform 0.5s, background 0.5s;
 }
 
+.clint-list {
+  display: flex;
+  justify-content: center;
+}
 .clint-card i {
   font-size: 2.5rem;
   margin-bottom: 0.1rem;
@@ -736,7 +725,8 @@ p {
 }
 .clint-card h2 {
   font-weight: 600;
-  margin-bottom: 1rem;
+  font-size: 2rem;
+  margin-bottom: 2rem;
   color: #878c8c;
   position: relative;
 }
@@ -752,10 +742,10 @@ p {
   transform: translateX(-50%);
 }
 
-.clint-card:hover {
+.clint-card:hover{
   background: #313232;
   color: #fff;
-  transform: scale(1.05);
+  transform: scale(1.02);
 }
 .clint-card:hover i {
   color: #fff;
