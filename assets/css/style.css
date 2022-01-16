@@ -48,8 +48,16 @@ body {
   background: #fff;
   margin: 0 auto 0 0.6rem;
 }
+/* ====Logo ====*/
+.logo{
+  width: 220px;
+  position: absolute;
+  top: 3%;
+  left: 1%;
+}
 
-/* ====Navigation CSS====*/
+
+/* ====Navigation ====*/
 .navbar {
   background-color: rgba(135, 140, 140, 0.801);
   

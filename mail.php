@@ -11,7 +11,7 @@ $email_body = 'User Name: $name.\n',
                 "Subject: $subject.\n",
                 "User Message: $message.\n";
 
-$to = 'yourmail id';
+$to = 'vividtechnologybd@gmail.com';
 
 $headers = "From : $email_from \r\n";
 
@@ -19,8 +19,6 @@ $headers = "Replay-to: $visitor_email \r\n";
 
 mail($to,$email_subject,$email_body,$headers);
 
-
-header ("location: contact.html");
-
-
+// redirect
+header ("location: thankyou.html");
 ?>
