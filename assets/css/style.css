@@ -164,6 +164,15 @@ body {
     display: inline-block;
     text-align: left;
   }
+  .banner h1 {
+    font-size: 2rem !important;
+    font-weight: 150;
+    padding-top: 2rem;
+   }
+  .banner p {
+   font-size: 1.5rem !important;
+   font-weight: 100;
+  }
 
 }
 
@@ -197,27 +206,6 @@ body {
     font-size: 0.6rem;
   }
   
-  /* #banner {
-    height: 100vh;
-  } */
-  .banner h1 {
-    font-size: 2rem !important;
-    /* display: none; */
-    font-weight: 150;
-    padding-top: 2rem;
-   }
-  .banner p {
-   font-size: 1.5rem !important;
-   font-weight: 100;
-  }
-
-
-  /* .clint-card i {
-    font-size: 0.5rem;
-  }
-  .clint-card h2 {
-    font-weight: 200;
-  } */
 }
 
 /* media query end */
@@ -771,7 +759,7 @@ p {
   color: #fff;
 }
 
-/* thank you #ff9377*/
+/* thank you*/
 #banner{
   background:linear-gradient(rgba(0,0,0,0.5),#ff9377),url(../images/thanks.jpg) no-repeat center center/cover; 
   width: auto;
