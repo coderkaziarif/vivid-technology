@@ -18,7 +18,8 @@ body {
 :root {
   /* Background Color */
   --bg-danger: rgba(0, 0, 0, 0.651);
-  --bg-warning: #000;
+  /* --bg-warning: #000; */
+  --bg-warning : #ff7f5d;
 }
 /* margin: 0 auto 5rem auto; */
 .line {
@@ -196,7 +197,19 @@ body {
     font-size: 0.6rem;
   }
   
-  
+  /* #banner {
+    height: 100vh;
+  } */
+  .banner h1 {
+    font-size: 0.3rem;
+    display: none;
+    font-weight: 150;
+   }
+  .banner p {
+   font-size: .2rem;
+   font-weight: 100;
+  }
+
 
   /* .clint-card i {
     font-size: 0.5rem;
@@ -755,4 +768,53 @@ p {
 }
 .clint-card:hover p {
   color: #fff;
+}
+
+/* thank you #ff9377*/
+#banner{
+  background:linear-gradient(rgba(0,0,0,0.5),#ff9377),url(../images/thanks.jpg) no-repeat center center/cover; 
+  width: auto;
+  height: 100vh;
+  
+}
+.banner h1, p, a{
+  color: #FF7F61;
+  font-family: 'Kaushan Script', cursive;
+  text-decoration: none;
+}
+
+.banner h1 {
+  font-size: 4rem;
+ }
+.banner p {
+ font-size: 3rem;
+}
+.thanksbtn{ 
+  font-weight: bold;
+  width:auto;
+  padding: 10px 20px;
+  text-decoration: none;
+  text-align: center;
+  color: #FF7F61;
+  border: 1px solid #ff7f5d;
+  border-radius: 65px;
+  background: none;  
+  cursor: pointer;
+}
+
+.thanksbtn:hover{
+  color: #fff;
+  border: 1px solid #fff;
+}
+
+.tankufooter{
+  margin-top: 200px;
+ 
+}
+
+#thankufooter{
+  padding: 0 0 30px 0;
+  color: #fff;
+  font-size: 14px;
+  padding-top: 3rem;
 }
