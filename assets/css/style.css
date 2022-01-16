@@ -201,12 +201,13 @@ body {
     height: 100vh;
   } */
   .banner h1 {
-    font-size: 0.3rem;
-    display: none;
+    font-size: 2rem !important;
+    /* display: none; */
     font-weight: 150;
+    padding-top: 2rem;
    }
   .banner p {
-   font-size: .2rem;
+   font-size: 1.5rem !important;
    font-weight: 100;
   }
 
