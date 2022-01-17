@@ -412,8 +412,7 @@
 
     <!-- ======services section end ======= -->
     
-
-    <!-- ======= Contact Section ======= -->
+    <!-- ======= New Contact Section ======= -->
     <section id="contact" class="contact">
       <div class="container">
         <div class="section-title mt-5 py-3">
@@ -459,7 +458,7 @@
 
           <div class="col-lg-8 mt-5 mt-lg-0">
             <form
-              action="mail.php"
+              action="https://formsubmit.co/info@vividtechnologybd.com" method="POST"
               method="POST"
               role="form"
               class="php-email-form"
@@ -486,6 +485,11 @@
                   />
                 </div>
               </div>
+
+                <input type="hidden" name="_subject" value="New E-mail Comes Yahooo!">            
+              
+                <input type="hidden" name="_next" value="https://vividtechnologybd.com/thanks.html">
+            
               <div class="form-group mt-3">
                 <input
                   type="text"
@@ -503,24 +507,19 @@
                   rows="5"
                   placeholder="Message"
                   required
-                ></textarea>
-              </div>
-              <!-- <div class="my-3">
-                <div class="loading">Loading</div>
-                <div class="error-message"></div>
-                <div class="sent-message">
-                  Your message has been sent. Thank you!
-                </div>
-              </div> -->
+                ></textarea>              
               <div class="text-center">
                 <button type="submit" name="submit">Send Message</button>
               </div>
+
+              <input type="hidden" name="_captcha" value="false">
+
             </form>
           </div>
         </div>
       </div>
     </section>
-    <!-- End Contact Section -->
+    <!-- ===== End Contact Section ===== -->
     <!-- ======= Footer ======= -->
     <footer
       id="footer"

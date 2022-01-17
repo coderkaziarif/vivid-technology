@@ -405,9 +405,7 @@ p {
 .single_service:hover span {
   left: 150%;
 }
-/* #service .service_card .body_area {
-  background-color: #ffa264;
-} */
+
 
 #service .service_card .card_botom .filled {
   color: #6c7070;
@@ -467,43 +465,7 @@ p {
 .contact .php-email-form .form-group {
   padding-bottom: 8px;
 }
-.contact .php-email-form .error-message {
-  display: none;
-  color: #fff;
-  background: #ed3c0d;
-  text-align: left;
-  padding: 15px;
-  font-weight: 600;
-}
-.contact .php-email-form .error-message br + br {
-  margin-top: 25px;
-}
-.contact .php-email-form .sent-message {
-  display: none;
-  color: #fff;
-  background: #18d26e;
-  text-align: center;
-  padding: 15px;
-  font-weight: 600;
-}
-.contact .php-email-form .loading {
-  display: none;
-  background: #fff;
-  text-align: center;
-  padding: 15px;
-}
-.contact .php-email-form .loading:before {
-  content: "";
-  display: inline-block;
-  border-radius: 50%;
-  width: 24px;
-  height: 24px;
-  margin: 0 10px -6px 0;
-  border: 3px solid #18d26e;
-  border-top-color: #eee;
-  -webkit-animation: animate-loading 1s linear infinite;
-  animation: animate-loading 1s linear infinite;
-}
+
 .contact .php-email-form input,
 .contact .php-email-form textarea {
   border-radius: 4px;
@@ -530,22 +492,6 @@ p {
 }
 .contact .php-email-form button[type="submit"]:hover {
   background: #ff9377;
-}
-@-webkit-keyframes animate-loading {
-  0% {
-    transform: rotate(0deg);
-  }
-  100% {
-    transform: rotate(360deg);
-  }
-}
-@keyframes animate-loading {
-  0% {
-    transform: rotate(0deg);
-  }
-  100% {
-    transform: rotate(360deg);
-  }
 }
 
 /*--------------------------------------------------------------
@@ -604,7 +550,6 @@ p {
   font-size: 14px;
   line-height: 24px;
   margin-bottom: 0;
-  /* font-family: "Open Sans", sans-serif; */
   color: #878c8c;
 }
 #footer .footer-top .social-links a {
@@ -693,6 +638,7 @@ p {
   color: #313232;
 }
 #footer .credits a {
+  font-family: 'Kaushan Script', cursive;
   color: #878c8c;
   text-decoration: none;
 }
@@ -792,6 +738,7 @@ p {
   height: 100vh;
   
 }
+
 .banner h1{
   font-size: 4rem;
   color: #FF7F61;
