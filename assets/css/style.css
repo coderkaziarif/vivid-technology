@@ -52,8 +52,9 @@ body {
 .logo{
   width: 220px;
   position: absolute;
-  top: 3%;
+  top: 1%;
   left: 1%;
+  bottom: 2%;
 }
 
 
@@ -791,7 +792,7 @@ p {
   height: 100vh;
   
 }
-.banner h1, p, a{
+.banner h1, a{
   color: #FF7F61;
   font-family: 'Kaushan Script', cursive;
   text-decoration: none;
@@ -801,7 +802,10 @@ p {
   font-size: 4rem;
  }
 .banner p {
- font-size: 3rem;
+  font-size: 3rem;
+  color: #FF7F61;
+  font-family: 'Kaushan Script', cursive;
+  text-decoration: none;
 }
 .thanksbtn{ 
   font-weight: bold;
