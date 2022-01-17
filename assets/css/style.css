@@ -792,15 +792,19 @@ p {
   height: 100vh;
   
 }
-.banner h1, a{
+.banner h1{
+  font-size: 4rem;
   color: #FF7F61;
   font-family: 'Kaushan Script', cursive;
   text-decoration: none;
 }
 
-.banner h1 {
-  font-size: 4rem;
- }
+.banner a{
+  color: #FF7F61;
+  font-family: 'Kaushan Script', cursive;
+  text-decoration: none;
+}
+
 .banner p {
   font-size: 3rem;
   color: #FF7F61;
